@@ -117,4 +117,31 @@ def readMultipleLines():
             command_line = "" # Clear command_line
         print('')
 
-readMultipleLines()
+
+# Launching the equivalent of a main() function in C++
+if __name__ == '__main__':
+    
+    option = 1
+       
+    while option != '0':
+        print( 'Pick a case to display:' )
+        print( '( 1 ) Read data from single lines' )
+        print( '( 2 ) Read data across multiple lines' )
+        print( '( 0 ) exit' )
+        print( '-----' )
+        
+        option = input( 'Pick a choice: ' )
+        
+        match option:
+            case '1':
+                readSingleLines()
+            case '2':
+                readMultipleLines()
+            case '0':
+                print( 'Exiting....' )
+            case _:
+                print( option, '= Invalid option' )
+        
+        _ = input( 'Press enter to continue.' )
+        print( '-'*50 )
+        print( '\n' )

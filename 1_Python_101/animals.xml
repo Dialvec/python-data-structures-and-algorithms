@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Animals>
+    <Dog>
+        <name>Laika</name>
+        <breed>Hero</breed>
+        <bark>Woof</bark>
+    </Dog>
+    <Dog>
+        <name>Fido</name>
+        <breed>Husky</breed>
+        <bark>Awoooooooo</bark>
+    </Dog>
+    <Pollito>
+        <name>Pi</name>
+    </Pollito>
+    <Cat>
+        <name>Anubis</name>
+        <breed>Bengal</breed>
+    </Cat>
+    <Dog>
+        <name>Hachiko</name>
+        <breed>Akita</breed>
+        <bark>Wan-wan</bark>
+    </Dog>
+    <Capybara>
+        <name>Capy</name>
+    </Capybara>
+    <Rat>
+        <name>Remy</name>
+    </Rat>
+</Animals>
