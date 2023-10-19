@@ -5,7 +5,7 @@ XML is a meta-language for data description.
 
 """
 An XML document begins with a special line to identify it as an XML file. Like this.
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 """
 
 """
@@ -168,7 +168,7 @@ def readXMLAnimals():
     for animal in animals.childNodes:
         
         if type( animal ) != minidom.Element:
-            continue 
+            continue
         
         species = animal.tagName
         attr = [ x for x in animal.childNodes if type( x ) == minidom.Element ]
