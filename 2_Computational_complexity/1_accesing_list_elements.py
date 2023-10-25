@@ -8,7 +8,6 @@ and retrieves values in a list. We can test two different theories in this progr
 
 import datetime
 import random
-import time
 import os
 
 from statistics import mean
