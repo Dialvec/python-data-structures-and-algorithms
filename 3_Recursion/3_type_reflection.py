@@ -7,7 +7,7 @@ that might be passed as parameters to a function
 One interesting aspect of reflection is the ability to see what the type of an object is.
 """
 
-""" 
+"""
 If we write type(obj) then Python will return an object which represents the type of obj.
 
 If obj is a reference to a string, then Python will return the str type object.
